@@ -4,3 +4,12 @@ h1 {
 .container{
     background-color: aliceblue;
 }
+.text-red{
+ color: red;
+}
+.text-blu{
+ color: blue;
+}
+.text-green{
+ color: green;
+}
