@@ -1,5 +1,8 @@
 const kmDaFare = prompt ("Quanti km deve percorrere?");
 const etaViaggiatore = prompt ("Quale è la sua età?");
+const prezzoBiglietto = kmDaFare * 0.21
+
+console.log(kmDaFare * 0.21)
 
 console.log(kmDaFare, etaViaggiatore);
 
