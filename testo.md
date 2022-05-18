@@ -18,3 +18,11 @@ età è un numero?
 età è stata inserita
 km è un numero valido?
 posso inserire un minimo / massimo di km possibili? -->
+
+
+Passaggi da fare:
+-Chiedere età passeggero
+-Chiedere km da fare
+-considerare il prezzo al km del biglietto
+-Creare una condizione se un passeggero avrà un età minore di 18 anni, dovrà pagare con uno sconto del 20%
+-Creare un'altra condizione se un passeggero avrà un età superiore ai 65 anni, pagherà un biglietto con il 40% di sconto
