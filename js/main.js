@@ -21,13 +21,15 @@ if (etaViaggiatore < 18 ){
 let costoTotale = prezzo * kmDaFare;
 costoTotale = costoTotale.toFixed(2)
 
-const liEtà = document.getElementById("etaViaggiatore")
-const liKm = document.getElementById("kmDaFare")
-const liCosto = document.getElementById("costoTotale")
+eta = (`${etaViaggiatore}`)
+km = (`${kmDaFare}`)
+costo = (`${costoTotale}`)
 
-// eta = (`${etaViaggiatore}`)
-// km = (`${kmDaFare}`)
-// costo = (`${costoTotale}`)
+var eta = document.getElementById("etaViaggiatore")
+var km = document.getElementById("kmDaFare")
+var price = document.getElementById("costoTotale")
+
+
 // etaViaggiatore.innerHTML = "<div>Età del viaggiatore :"+eta+"</div>"
 // kmDaFare.innerHTML = "<div>Km che dovrà effettuare :"+km+"</div>"
 // costoTotale.innerHTML = "<div>Prezzo del Biglietto :"+costo+"</div>"
