@@ -12,9 +12,11 @@ if (isNaN(etaViaggiatore) && isNaN(kmDaFare)) {
 
 if (etaViaggiatore < 18 ){
     let prezzo20 = prezzo * 0.20
+    prezzo -= prezzo20
     console.log("il prezzo del biglietto sarà scontato del 20%")
 } else if (etaViaggiatore > 65) {
     let prezzo40 = prezzo * 0.40
+    prezzo -= prezzo40
     console.log("il prezzo del biglietto sarà scontato del 40%")
 }
 
