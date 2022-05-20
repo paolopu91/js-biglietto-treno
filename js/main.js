@@ -8,7 +8,8 @@ console.log(parseInt(kmDaFare) * prezzo);
 console.log(kmDaFare, etaViaggiatore);
 
 // Validare i dati che l'utente ha inserito
-
+let eta = etaViaggiatore
+let km = kmDaFare
 if  (isNaN (etaViaggiatore) && isNaN (kmDaFare)) {
     alert("Inserire i valori giusti all'interno dei campi")
 }
